@@ -10,7 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "pre-commit": "lint",
+  "pre-commit": {
+    "run": [
+      "lint"
+    ]
+  },
   "dependencies": {
     "vite": "^4.4.7"
   },
