@@ -1,5 +1,8 @@
 {
-  "*": [
+  "*.js": [
+    "prettier --write"
+  ],
+  "*.css": [
     "prettier --write"
   ]
 }
