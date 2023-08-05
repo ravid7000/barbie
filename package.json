@@ -1,6 +1,6 @@
 {
-  "name": "ui-theme",
-  "version": "1.0.0",
+  "name": "barbie",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,16 +10,20 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "pre-commit": {
-    "run": [
+  "lint-staged": {
+    "*.js": [
       "lint"
     ]
   },
-  "dependencies": {
-    "vite": "^4.4.7"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "devDependencies": {
-    "pre-commit": "^1.2.2",
-    "prettier": "3.0.1"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.3",
+    "prettier": "3.0.1",
+    "vite": "^4.4.7"
   }
 }
