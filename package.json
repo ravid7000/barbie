@@ -10,16 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "lint-staged": {
-    "*.js": [
-      "lint"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^13.2.3",
