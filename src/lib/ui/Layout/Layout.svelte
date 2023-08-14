@@ -1,8 +1,10 @@
 <script lang="ts">
   import '../init.css'
+
+  import Header from './Header.svelte'
 </script>
 
-<header>Header</header>
+<Header />
 
 <main>
   <slot />
